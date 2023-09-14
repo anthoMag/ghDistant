@@ -8,7 +8,7 @@ ___________________________________
 
 #!/bin/bash
 
-info_file="suivi/commitinfo.txt"
+info_file="commitinfo.txt"
 
 read -p "Souhaitez-vous enregistrer la date et l'heure du commit (y/n) ? " yn < /dev/tty
 
@@ -33,5 +33,3 @@ ____________________________________
 
 
 - Faire le commande "chmod +x pre-commit" dans le répertoire ".git/hooks" (va rendre le fichier exécutable)
-
-- Créer le répertoire ".git/hooks/suivi/" (pour accueillir le nouveau fichier de suivi de commit)
